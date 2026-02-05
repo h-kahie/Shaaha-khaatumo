@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maqaayada Shaaha Khaatumo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>☕ Shaaha Khaatumo</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Dhadhan, Deganaan & Shaah Dhab ah</h2>
+      <p>Ku raaxayso shaaha Khaatumo – meel lagu nasto 🫖</p>
+      <button onclick="scrollToMenu()">Daawo Menu</button>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Menu-keena</h2>
+    <div class="menu-grid">
+      <div class="item"><h3>Shaah Caano</h3><p>Shaah kulul oo caano leh</p><span>$1</span></div>
+      <div class="item"><h3>Shaah Cad</h3><p>Shaah dabiici ah</p><span>$0.5</span></div>
+      <div class="item"><h3>Qaxwo Soomaaliyeed</h3><p>Qaxwo caraf leh</p><span>$1.5</span></div>
+      <div class="item"><h3>Rooti & Subag</h3><p>Quraac fudud</p><span>$1</span></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Nagu Saabsan</h2>
+    <p>Maqaayada Shaaha Khaatumo waa goob loogu talagalay nasasho, sheeko iyo shaah macaan. Waxaan diiradda saarnaa nadaafad, dhadhan iyo jawi deggan.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Nala Soo Xiriir</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Magacaaga" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Fariintaada" required></textarea>
+      <button type="submit">Dir</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Shaaha Khaatumo ☕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
